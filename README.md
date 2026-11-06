@@ -23,8 +23,6 @@ npm install qr-tree three
 
 `three` is a peer dependency. React 18 or newer is only needed for `qr-tree/react`.
 
-> Not on npm yet? Install straight from GitHub: `npm install github:SRojas22/QR_Tree three`, or copy the `src/` folder into your project.
-
 ## Usage
 
 ### Plain JavaScript
