@@ -18,10 +18,10 @@ Built with [three.js](https://threejs.org) and [node-qrcode](https://github.com/
 ## Install
 
 ```sh
-npm install qr-tree three
+npm install @srojas22/qr-tree three
 ```
 
-`three` is a peer dependency. React 18 or newer is only needed for `qr-tree/react`.
+`three` is a peer dependency. React 18 or newer is only needed for `@srojas22/qr-tree/react`.
 
 ## Usage
 
@@ -32,7 +32,7 @@ npm install qr-tree three
 ```
 
 ```ts
-import { QRTree } from "qr-tree";
+import { QRTree } from "@srojas22/qr-tree";
 
 const canvas = document.getElementById("tree") as HTMLCanvasElement;
 const tree = new QRTree(canvas, { value: "https://example.com", kind: "jacaranda", label: "Website" });
@@ -53,7 +53,7 @@ Call `tree.dispose()` when you remove the canvas.
 ### React
 
 ```tsx
-import { QRTree } from "qr-tree/react";
+import { QRTree } from "@srojas22/qr-tree/react";
 
 export function Contact() {
   return <QRTree value="https://example.com" kind="palm" label="Website" style={{ width: "100%", height: 600 }} />;

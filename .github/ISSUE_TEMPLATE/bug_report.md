@@ -12,6 +12,6 @@ labels: bug
 The text you encoded, the options you passed, and the steps.
 
 **Environment**
-Browser, device, `qr-tree` and `three` versions.
+Browser, device, `@srojas22/qr-tree` and `three` versions.
 
 **Screenshot or recording**
