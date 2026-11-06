@@ -145,10 +145,6 @@ The source is small:
 
 Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Credits
-
-Made by [Susana Rojas](https://github.com/SRojas22), first for the contact section of a personal portfolio site. The idea of a tree that folds into its QR code comes from [tree.icqr.com](https://tree.icqr.com).
-
 ## License
 
 [MIT](LICENSE)
